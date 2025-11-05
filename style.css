@@ -1,0 +1,423 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero-section {
+  height: 100vh;
+}
+.hero-section-image {
+  background-image: url("./images/heroImage.png");
+  background-position: center;
+  background-size: cover;
+}
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.header {
+  /* border: 1px solid black; */
+  padding: 40px 0;
+  width: 1064px;
+  margin: 0 auto;
+}
+.header img {
+  height: 34px;
+  width: 100px;
+}
+.menu-items {
+  color: white;
+  font-size: 21px;
+  gap: 24px;
+}
+.lang {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 100%;
+}
+.hero-text1 p {
+  color: rgba(232, 237, 242, 0.72);
+  width: 618px;
+  height: 80px;
+  font-size: 80px;
+  display: flex;
+  flex: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.hero-text2 h3 {
+  color: white;
+  width: 618px;
+  height: 250px;
+  font-size: 250px;
+  display: flex;
+  flex: column;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.location-section {
+  height: 100vh;
+  /* width: 1064px;
+  margin: 0 auto; */
+}
+.location-section-background {
+  background-image: url("./images/location.png");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  gap: 50px;
+}
+.location-section-zuragnuud {
+  /* margin-top: 50px; */
+  position: relative;
+  width: 276px;
+  height: 370px;
+
+  border-radius: 25px;
+}
+/* .terhiin-tsagaan-nuur {
+  position: relative;
+ 
+} */
+.amar-baysgalant-hiid {
+  position: relative;
+}
+.KHUWSGUL-DALAI {
+  position: relative;
+}
+.khorgiin-togoo {
+  position: relative;
+}
+.location-section-text-terhiin-tsagaan-nuur {
+  /* margin-top: 50px; */
+
+  background-image: url("./images/terhiin-tsagaan-nuur.png");
+  background-position: center;
+  background-size: cover;
+  box-shadow: -8px -8px #29728b40, 8px 8px #1f72aa75;
+  border-radius: 25px;
+  height: 100%;
+  width: 100%;
+}
+.location-section-text-amarbaysgalant-hiid {
+  background-image: url("./images/amarbaysgalant-hiid.png");
+  background-position: center;
+  background-size: cover;
+  box-shadow: -8px -8px #29728b40, 8px 8px #1f72aa75;
+  border-radius: 25px;
+  height: 100%;
+  width: 100%;
+}
+.location-section-text-khuwusgul-dalai {
+  background-image: url("./images/khuwsgul-dalai.png");
+  background-position: center;
+  background-size: cover;
+  box-shadow: -8px -8px #29728b40, 8px 8px #1f72aa75;
+  border-radius: 25px;
+  height: 100%;
+  width: 100%;
+}
+.location-section-text-khorgiin-togoo {
+  background-image: url("./images/khorgiin-togoo.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  height: 100%;
+  width: 100%;
+  box-shadow: -8px -8px #29728b40, 8px 8px #1f72aa75;
+  background-color: red;
+}
+
+.location-section-text {
+  position: absolute;
+  color: white;
+  font-size: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .overlay {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    display: flex;
+    color: #fdfdfecc;
+    font-size: 27px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+}
+.amarbaysgalant-monastery {
+  width: 513px;
+  height: 112px;
+  background-color: rgba(139, 184, 193, 0.8);
+  border-radius: 120px;
+  padding: 30px;
+}
+.khorgiin-togoo {
+  width: 513px;
+  height: 112px;
+  background-color: rgba(170, 216, 215, 0.8);
+
+  border-radius: 120px;
+  padding: 30px;
+}
+
+.roadmap-backround {
+  background-image: url("./images/roadmap.png");
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.roadmap-frame {
+  position: relative;
+  flex-direction: column;
+  gap: 28px;
+}
+.container {
+  display: flex;
+  gap: 40px;
+}
+.right {
+  width: 600px;
+  height: 600px;
+  /* border: 1px solid red; */
+}
+.location-buttom1 {
+  height: fit-content;
+  background-color: #eee9d9;
+  border-radius: 120px;
+  gap: 50px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.location-buttom2 {
+  height: fit-content;
+  background-color: #8bb8c1cc;
+  border-radius: 120px;
+  gap: 50px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.location-buttom3 {
+  height: fit-content;
+  background-color: #aad8d7cc;
+  border-radius: 120px;
+  gap: 50px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.location-buttom4 {
+  height: fit-content;
+  background-color: #8bc0bdcc;
+  border-radius: 120px;
+  gap: 50px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.location-buttom5 {
+  height: fit-content;
+  background-color: #97cce0cc;
+  border-radius: 120px;
+  gap: 50px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.day {
+  background-color: white;
+  height: 52px;
+  width: 52px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.icon-sukhbaatar {
+  height: 245px;
+  width: 245px;
+  display: none;
+  position: absolute;
+  left: 1000px;
+  top: 100px;
+}
+.icon-amarbaysgalant-monastery {
+  height: 245px;
+  width: 245px;
+  display: none;
+  position: absolute;
+  left: 800px;
+  top: 500px;
+}
+.icon-khorgiin-togoo {
+  height: 245px;
+  width: 245px;
+  display: none;
+  position: absolute;
+  left: 1200px;
+  top: 150px;
+}
+.icon-terkhiin-tsagaan-nuur {
+  height: 245px;
+  width: 245px;
+  display: none;
+  position: absolute;
+  left: 900px;
+  top: 250px;
+}
+.icon-khuwsgul-dalai {
+  height: 245px;
+  width: 245px;
+  display: none;
+  position: absolute;
+  left: 700px;
+  top: 350px;
+}
+.icon-img {
+  margin-left: 10px;
+}
+.gap-2 {
+  gap: 2px;
+}
+.location-buttom1:hover + .icon-sukhbaatar {
+  display: block;
+}
+.location-buttom1:hover {
+  border: 8px solid white;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.location-buttom2:hover + .icon-amarbaysgalant-monastery {
+  display: block;
+}
+.location-buttom2:hover {
+  border: 8px solid white;
+}
+
+.location-buttom3:hover + .icon-khorgiin-togoo {
+  display: block;
+}
+.location-buttom3:hover {
+  border: 8px solid white;
+}
+.location-buttom4:hover + .icon-terkhiin-tsagaan-nuur {
+  display: block;
+}
+.location-buttom4:hover {
+  border: 8px solid white;
+}
+.location-buttom5:hover + .icon-khuwsgul-dalai {
+  display: block;
+}
+.location-buttom5:hover {
+  border: 8px solid white;
+}
+/* .location-info {
+  height: 48px;
+  width: 217px;
+  gap: 4px;
+}
+.location-name {
+  width: 217px;
+  height: 29px;
+  font-size: 24px;
+  color: black;
+}
+.location-details {
+  width: 94px;
+  height: 15px;
+  color: black;
+  padding-left: 100px;
+  /* gap: 12px; */
+/* font-size: 12px;
+}
+.icon-container {
+  width: 14px;
+  height: 14px;
+}
+.icon-background {
+  width: 14px;
+  height: 14px;
+  top: 0.5px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.location-region {
+  width: 68px;
+  height: 15px;
+  font-size: 12px;
+  color: rgba(24, 24, 27, 1);
+}
+.day-container {
+  width: 52px;
+  height: 48px;
+}
+.day-text {
+  width: 35px;
+  height: 16px;
+  top: 18px;
+  left: 8px;
+  font-size: 14px;
+}
+.ellipse {
+  width: 52px;
+  height: 52px;
+  color: rgba(247, 246, 243, 1);
+}
+.frame-104 {
+  width: 1442px;
+  height: 204px;
+  gap: 10px;
+  top: 120px;
+  left: -1px;
+}
+.destination-of-our-agency {
+  width: 1442px;
+  height: 51px;
+  font-size: 42px;
+  display: flex;
+  justify-content: center;
+}
+.pack-your-bags-and-get-ready {
+  width: 1442px;
+  height: 24px;
+  font-size: 20px;
+  color: black;
+  display: flex;
+  justify-content: center;
+} */
