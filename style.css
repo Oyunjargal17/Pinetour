@@ -3,13 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 .hero-section {
   height: 100vh;
 }
 .hero-section-image {
   background-image: url("./images/heroImage.png");
-  background-position: center;
+  width: 1440px;
+  height: 773px;
+  /* background-position: center; */
   background-size: cover;
+  margin: 0 auto;
 }
 .flex {
   display: flex;
@@ -72,12 +76,28 @@
   /* width: 1064px;
   margin: 0 auto; */
 }
+.price-section {
+  height: 100vh;
+  gap: 32px;
+}
+
 .location-section-background {
   background-image: url("./images/location.png");
   background-position: center;
   background-size: cover;
   height: 500px;
+  width: 1440px;
+  margin: 0 auto;
   gap: 50px;
+}
+.price-section-background {
+  background-image: url("./images/footer-background.png");
+  background-position: center;
+  background-size: center;
+  height: 1120px;
+  width: 1440px;
+  margin: 0 auto;
+  /* gap: 50px; */
 }
 .location-section-zuragnuud {
   /* margin-top: 50px; */
@@ -87,10 +107,6 @@
 
   border-radius: 25px;
 }
-/* .terhiin-tsagaan-nuur {
-  position: relative;
- 
-} */
 .amar-baysgalant-hiid {
   position: relative;
 }
@@ -183,77 +199,91 @@
 .roadmap-backround {
   background-image: url("./images/roadmap.png");
   height: 100vh;
-  position: relative;
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
+  width: 1440px;
+  height: 1022px;
+  margin: 0 auto;
+  /* gap: 40px; */
 }
 .roadmap-frame {
-  position: relative;
   flex-direction: column;
   gap: 28px;
 }
 .container {
   display: flex;
   gap: 40px;
+  border: 1px solid red;
+  position: relative;
 }
 .right {
   width: 600px;
   height: 600px;
   /* border: 1px solid red; */
 }
-.location-buttom1 {
-  height: fit-content;
+.location-button1 {
+  /* height: fit-content; */
   background-color: #eee9d9;
   border-radius: 120px;
-  gap: 50px;
-  padding: 40px;
+  /* gap: 50px; */
+  padding-inline: 30px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  height: 112px;
+  border: 8px solid transparent;
 }
+/* .location-button1:hover {
+  border-color: 3px solid white;
+} */
 .location-buttom2 {
-  height: fit-content;
+  height: 112px;
   background-color: #8bb8c1cc;
   border-radius: 120px;
-  gap: 50px;
-  padding: 40px;
+  /* gap: 50px; */
+  padding-inline: 30px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  border: 8px solid transparent;
 }
 .location-buttom3 {
-  height: fit-content;
+  height: 112px;
   background-color: #aad8d7cc;
   border-radius: 120px;
-  gap: 50px;
-  padding: 40px;
+  /* gap: 50px; */
+  /* padding: 40px; */
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding-inline: 30px;
+  justify-content: space-between;
+  border: 8px solid transparent;
 }
 .location-buttom4 {
-  height: fit-content;
+  /* height: fit-content; */
   background-color: #8bc0bdcc;
+  height: 112px;
   border-radius: 120px;
-  gap: 50px;
-  padding: 40px;
+  /* gap: 50px; */
+  padding-inline: 30px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  border: 8px solid transparent;
 }
 .location-buttom5 {
-  height: fit-content;
+  height: 112px;
   background-color: #97cce0cc;
   border-radius: 120px;
-  gap: 50px;
-  padding: 40px;
+  /* gap: 50px; */
+  padding-inline: 30px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  border: 8px solid transparent;
 }
 .day {
   background-color: white;
@@ -266,14 +296,6 @@
   border-radius: 100%;
 }
 
-.icon-sukhbaatar {
-  height: 245px;
-  width: 245px;
-  display: none;
-  position: absolute;
-  left: 1000px;
-  top: 100px;
-}
 .icon-amarbaysgalant-monastery {
   height: 245px;
   width: 245px;
@@ -312,10 +334,21 @@
 .gap-2 {
   gap: 2px;
 }
-.location-buttom1:hover + .icon-sukhbaatar {
-  display: block;
+
+.icon-sukhbaatar {
+  width: 246px;
+  height: 246px;
+  display: none;
 }
-.location-buttom1:hover {
+
+.location-button1:hover + .icon-sukhbaatar {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-color: 3px solid white;
+}
+.location-button1:hover {
   border: 8px solid white;
 }
 .flex-column {
@@ -347,77 +380,126 @@
 .location-buttom5:hover {
   border: 8px solid white;
 }
-/* .location-info {
-  height: 48px;
-  width: 217px;
-  gap: 4px;
+.price-button1 {
+  width: 384px;
+  height: 527px;
+  background-color: #fafbfc;
+  background-position: center;
+  /* background-size: cover; */
+  /* box-shadow: -8px -8px #29728b40, 8px 8px #1f72aa75; */
+  border-radius: 25px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
-.location-name {
-  width: 217px;
-  height: 29px;
-  font-size: 24px;
-  color: black;
+.price-button2 {
+  width: 384px;
+  height: 527px;
+  background-color: #fafbfc;
+  background-position: center;
+  /* background-size: cover; */
+  /* box-shadow: -8px -8px #29728b40, 8px 8px #1f72aa75; */
+  border-radius: 25px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
-.location-details {
-  width: 94px;
-  height: 15px;
-  color: black;
-  padding-left: 100px;
-  /* gap: 12px; */
-/* font-size: 12px;
-}
-.icon-container {
-  width: 14px;
-  height: 14px;
-}
-.icon-background {
-  width: 14px;
-  height: 14px;
-  top: 0.5px;
-  color: rgba(0, 0, 0, 1);
+.price-button3 {
+  width: 384px;
+  height: 527px;
+  background-color: #fafbfc;
+  background-position: center;
+  /* background-size: cover; */
+  /* box-shadow: -8px -8px #29728b40, 8px 8px #1f72aa75; */
+  border-radius: 25px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
 
-.location-region {
-  width: 68px;
-  height: 15px;
-  font-size: 12px;
-  color: rgba(24, 24, 27, 1);
+.hover:hover {
+  box-shadow: -8px -8px #29728b40, 8px 8px #1f72aa75;
 }
-.day-container {
-  width: 52px;
+.hover:hover .select-package {
+  background-color: black;
+  color: white;
+}
+
+.img-hover:hover {
+  border-radius: 100%;
+  background-color: rgb(114, 114, 114);
+}
+.price-h3 {
+  width: 336px;
+  /* height: 29px; */
+  font-size: 40px;
+}
+.price-p {
+  width: 200px;
+  /* height: 19px; */
+  color: rgba(145, 145, 145, 1);
+  font-size: 16px;
+  /* display: flex; */
+}
+.inc {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.price-gap {
+  gap: 14px;
+}
+.check-icon {
+  height: 20px;
+  width: 20px;
+  gap: 20px;
+}
+.p-padding {
+  padding-bottom: 15px;
+}
+.select-package {
   height: 48px;
-}
-.day-text {
-  width: 35px;
-  height: 16px;
-  top: 18px;
-  left: 8px;
-  font-size: 14px;
-}
-.ellipse {
-  width: 52px;
-  height: 52px;
-  color: rgba(247, 246, 243, 1);
-}
-.frame-104 {
-  width: 1442px;
-  height: 204px;
-  gap: 10px;
-  top: 120px;
-  left: -1px;
-}
-.destination-of-our-agency {
-  width: 1442px;
-  height: 51px;
-  font-size: 42px;
+  width: 336px;
+  background-color: rgba(164, 209, 226, 1);
+  border-radius: 25px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-top: 35px;
 }
-.pack-your-bags-and-get-ready {
-  width: 1442px;
-  height: 24px;
-  font-size: 20px;
-  color: black;
+.standard-package {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  font-size: 18px;
+}
+.standard-package-gap {
+  margin-bottom: 35px;
+  /* gap: 20px; */
+}
+.popular {
+  background-color: rgba(105, 114, 181, 1);
+  border-radius: 15px;
+  font-size: 16px;
+  color: white;
   display: flex;
   justify-content: center;
-} */
+  align-items: center;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.pin-ub {
+  height: 34px;
+  width: 34px;
+  position: absolute;
+  left: 974px;
+  top: 421px;
+}
+.roadmap-text {
+  font-size: 24px;
+  color: white;
+}
