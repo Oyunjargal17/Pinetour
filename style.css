@@ -8,7 +8,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-  font-family: "Inter", sans-serif;, sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /* .hero-section {
@@ -43,7 +43,7 @@ body {
   margin: 0 auto;
 }
 .menu-items {
-  font-family: "Inter", sans-serif;;
+  font-family: "Inter", sans-serif;
   color: white;
   font-size: 18px;
   gap: 24px;
@@ -54,7 +54,7 @@ body {
   background-color: white;
   border-radius: 100%;
   font-size: 14px;
-  font-family: "Inter", sans-serif;;
+  font-family: "Inter", sans-serif;
 }
 
 .hero-text1 {
@@ -213,11 +213,11 @@ body {
   position: relative;
 }
 .destination-of-our-agency {
-  font-family: "Inter", sans-serif;;
+  font-family: "Inter", sans-serif;
   font-size: 42px;
 }
 .pack-your-bags-and-get-ready {
-  font-family: "Inter", sans-serif;;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   display: flex;
   justify-content: center;
@@ -387,12 +387,12 @@ body {
 /* Эндээс сүүлийн хэсэн эхлэж байна. */
 /* =============================================== */
 .Pricing-of-Our-Agency {
-  font-family: "Inter", sans-serif;;
+  font-family: "Inter", sans-serif;
   font-size: 42px;
   padding-top: 30px;
 }
 .choose {
-  font-family: "Inter", sans-serif;;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   color: #18181bb2;
   padding-top: 10px;
